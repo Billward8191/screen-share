@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Share Screen</title>
+</head>
+<body style="text-align:center;">
+
+<h2>Share Your Screen</h2>
+
+<input id="room" placeholder="Enter Code (e.g. 1234)" />
+<br><br>
+
+<button onclick="startSharing()">Share Entire Screen</button>
+
+<video id="video" autoplay playsinline style="width:80%;"></video>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
